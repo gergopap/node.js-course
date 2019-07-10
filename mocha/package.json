@@ -1,0 +1,17 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "GP <pap133@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mocha": "^6.1.4"
+  }
+}
