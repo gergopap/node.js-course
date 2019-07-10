@@ -1,0 +1,16 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "main": "connectDb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GP <pap133@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.2.7",
+    "promise": "^8.0.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}
