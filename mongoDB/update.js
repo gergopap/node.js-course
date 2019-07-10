@@ -1,12 +1,13 @@
 var MongoClient = require('mongodb').MongoClient;
-var url = 'mongodb://localhost/EmployeeDB';
+var url = 'mongodb://localhost';
 
-MongoClient.connect(url, function (err, db) {
-  db.collection('Employee').updateOne({
+MongoClient.connect(url, function (err, client) {
+  var db = client.db('EmployeeDB')
+  db.collection('EmployeeDB').updateOne({
     "EmployeeName": "NewEmployee"
   }, {
       $set: {
         "EmployeeName": "Mohan"
       }
     });
-}); 
+});
